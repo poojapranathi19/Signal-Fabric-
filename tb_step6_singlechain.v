@@ -1,4 +1,4 @@
-module tb_DSP();
+module tb_step6_singlechain();
     // Simulated Clock and Reset
     reg clk;
     reg rst;
@@ -20,7 +20,7 @@ module tb_DSP();
     wire [47:0] data_p;
 
     // Instantiate Unit Under Test (UUT)
-    DSP_modules uut (
+    step6_designcode uut (
         .clk(clk),
         .rst(rst),
         .ce_a(ce_a),
