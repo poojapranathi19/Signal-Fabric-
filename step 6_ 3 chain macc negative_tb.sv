@@ -1,6 +1,6 @@
 // Code your testbench here
 // or browse Examples
-module tb_DSP_negative();
+module step6_ 3 chain macc negative_tb();
  
     reg clk;
     reg rst;
@@ -20,7 +20,7 @@ module tb_DSP_negative();
  
     wire [47:0] data_p;
  
-    DSP_modules uut (
+    step6_designcode uut (
         .clk(clk), .rst(rst),
         .ce_a(ce_a), .ce_b(ce_b), .ce_c(ce_c), .ce_d(ce_d),
         .ce_ad(ce_ad), .ce_m(ce_m), .ce_p(ce_p),
