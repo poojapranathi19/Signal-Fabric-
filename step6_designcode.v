@@ -1,4 +1,4 @@
-module DSP_modules(
+module step6_designcode(
     // 1. GLOBAL SYSTEM SIGNALS
     input clk,
     input rst,
