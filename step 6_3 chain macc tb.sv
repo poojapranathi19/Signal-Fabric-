@@ -1,6 +1,6 @@
 // Code your testbench here
 // or browse Examples
-module tb_DSP();
+module step6_3 chain macc tb();
     
     reg clk;
     reg rst;
@@ -22,7 +22,7 @@ module tb_DSP();
     wire [47:0] data_p;
 
     // Instantiate Unit Under Test (UUT)
-    DSP_modules uut (
+    step6_designcode uut (
         .clk(clk),
         .rst(rst),
         .ce_a(ce_a),
